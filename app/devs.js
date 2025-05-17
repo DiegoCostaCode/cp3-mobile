@@ -3,7 +3,7 @@ import { View, Text, FlatList, StyleSheet } from 'react-native';
 
 const devs = [
   { id: '1', nome: 'Diego Costa Silva', rm: 'RM552648' },
-  { id: '2', nome: 'Maurício Vieira Pereirar', rm: 'RRM553748' },
+  { id: '2', nome: 'Maurício Vieira Pereirar', rm: 'RM553748' },
   { id: '3', nome: 'Lucas Minozzo Bronzeri', rm: 'RM553745' },
 ];
 
@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    marginTop: 40,
   },
   title: {
     fontSize: 22,

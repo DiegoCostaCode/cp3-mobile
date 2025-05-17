@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cp3MobileEstoqueApp",
-    "slug": "cp3MobileEstoqueApp",
+    "name": "EstoqueCP3",
+    "slug": "EstoqueCP3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-barcode-scanner"
+    ]
   }
 }
